@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item type="id" name="tv_mode" />
+    <item name="btn_pre" type="id" />
+    <item name="btn_next" type="id" />
+    <item name="btn_jump" type="id" />
+    <item name="et_jump" type="id" />
+    <item name="tv_page" type="id" />
+
+</resources>

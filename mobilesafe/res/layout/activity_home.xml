@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.mobilesafe.activity.HomeActivity" >
+
+ <!--    <TextView
+        android:id="@+id/tv_text"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#8866ff00"
+        android:gravity="center"
+        android:textSize="22sp"
+        android:textColor="#000"
+        android:text="功能列表" /> -->
+    
+    <TextView
+           android:id="@+id/tv_text"
+       style="@style/TitleStyle"
+       android:text="功能列表"/>
+    
+    
+    <com.example.mobilesafe.view.FocusTextView 
+         android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:ellipsize="marquee"
+        android:textSize="18sp"
+        android:text="手机卫士帮你做家务，查杀病毒，让你天天轻松开心"
+        android:singleLine="true"
+        />
+    
+<GridView 
+    android:id="@+id/gv_home"
+     android:layout_width="match_parent"
+     android:layout_height="0dp"
+     android:layout_weight="1"	
+    android:numColumns="3"
+    ></GridView>
+
+</LinearLayout>

@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:dtextview="http://schemas.android.com/apk/res/com.example.mobilesafe"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+      android:orientation="vertical"
+    tools:context="com.example.mobilesafe.activity.SettingActivity" >
+
+    <TextView
+       style="@style/TitleStyle"
+       android:text="设置中心"/>
+<com.example.mobilesafe.view.SettingItemView	
+        android:id="@+id/siv_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        dtextview:title_text="自动更新设置"
+        dtextview:desc_off="自动更新关闭"
+        dtextview:desc_on="自动更新开启"
+    
+     />
+        
+<com.example.mobilesafe.view.SettingItemView	
+        android:id="@+id/siv_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        dtextview:title_text="归属地设置"
+        dtextview:desc_off="归属地已关闭"
+        dtextview:desc_on="归属地已开启"
+  
+     />
+
+
+
+<com.example.mobilesafe.view.SettingClickView	
+        android:id="@+id/scv_address_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+     />
+
+<com.example.mobilesafe.view.SettingClickView	
+        android:id="@+id/scv_address_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+     />
+    <com.example.mobilesafe.view.SettingItemView
+        android:id="@+id/siv_black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        dtextview:title_text="黑名单更新设置"
+        dtextview:desc_off="黑名单已关闭"
+        dtextview:desc_on="黑名单已开启"
+
+        />
+
+
+</LinearLayout>
